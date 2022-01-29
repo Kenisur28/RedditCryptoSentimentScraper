@@ -1,13 +1,12 @@
-# ML
 
-This program will request n posts from /r/WallStreetBets and associated comments from
-the reddit api, and assign a score and a tally for each company that is mentioned.
+This program will request cryptocurrency comments from
+the reddit api, and assign a score and a tally for each comment that mentions a coin of interest
 
-Companies are determined from pre-made list "companies"
+** Note ** 
+See AlgorithmBlogPost for detailed instructions on setting up Reddit API access.
 
-To run, enter `python SentClassifier.py` into command line.
-Adjust `n` variable to be desired number of posts to request. File will output a JSON file.
-JSON output name can be adjusted on line 96.
+To run, enter `python classifer.py` into command line.
+Inside of your .env file... Adjust `n` variable to be desired number of posts to request.
 
 install the virtual environment:
 
